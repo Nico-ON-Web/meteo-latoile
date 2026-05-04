@@ -1,28 +1,98 @@
 {
-    "weatherCode": {
-        "0": "Unknown",
-        "1000": "Clear, Sunny",
-        "1100": "Mostly Clear",
-        "1101": "Partly Cloudy",
-        "1102": "Mostly Cloudy",
-        "1001": "Cloudy",
-        "2000": "Fog",
-        "2100": "Light Fog",
-        "4000": "Drizzle",
-        "4001": "Rain",
-        "4200": "Light Rain",
-        "4201": "Heavy Rain",
-        "5000": "Snow",
-        "5001": "Flurries",
-        "5100": "Light Snow",
-        "5101": "Heavy Snow",
-        "6000": "Freezing Drizzle",
-        "6001": "Freezing Rain",
-        "6200": "Light Freezing Rain",
-        "6201": "Heavy Freezing Rain",
-        "7000": "Ice Pellets",
-        "7101": "Heavy Ice Pellets",
-        "7102": "Light Ice Pellets",
-        "8000": "Thunderstorm"
+    "0": {
+        "weather": "Inconnu",
+        "image": ""
+    },
+    "1000": {
+        "weather": "Dégagé, ensoleillé",
+        "image": "clear_day.svg"
+    },
+    "1100": {
+        "weather": "Majoritairement dégagé",
+        "image": "mostly_clear_day.svg"
+    },
+    "1101": {
+        "weather": "Partiellement nuageux",
+        "image": "partly_cloudy_day.svg"
+    },
+    "1102": {
+        "weather": "Majoritairement nuageux",
+        "image": "mostly_cloudy_day.svg"
+    },
+    "1001": {
+        "weather": "Nuageux",
+        "image": "cloudy.svg"
+    },
+    "2000": {
+        "weather": "Brouillard",
+        "image": "fog.svg"
+    },
+    "2100": {
+        "weather": "Léger brouillard",
+        "image": "fog_light.svg"
+    },
+    "4000": {
+        "weather": "Bruine",
+        "image": "drizzle.svg"
+    },
+    "4001": {
+        "weather": "Pluie",
+        "image": "rain.svg"
+    },
+    "4200": {
+        "weather": "Pluie légère",
+        "image": "rain_light.svg"
+    },
+    "4201": {
+        "weather": "Forte pluie",
+        "image": "rain_heavy.svg"
+    },
+    "5000": {
+        "weather": "Neige",
+        "image": "snow.svg"
+    },
+    "5001": {
+        "weather": "Averses de neige",
+        "image": "flurries.svg"
+    },
+    "5100": {
+        "weather": "Neige légère",
+        "image": "snow_light.svg"
+    },
+    "5101": {
+        "weather": "Forte neige",
+        "image": "snow_heavy.svg"
+    },
+    "6000": {
+        "weather": "Bruine verglaçante",
+        "image": "freezing_drizzle.svg"
+    },
+    "6001": {
+        "weather": "Pluie verglaçante",
+        "image": "freezing_rain.svg"
+    },
+    "6200": {
+        "weather": "Pluie verglaçante légère",
+        "image": "freezing_rain_light.svg"
+    },
+    "6201": {
+        "weather": "Forte pluie verglaçante",
+        "image": "freezing_rain_heavy.svg"
+    },
+    "7000": {
+        "weather": "Grésil",
+        "image": "ice_pellets.svg"
+    },
+    "7101": {
+        "weather": "Fort grésil",
+        "image": "ice_pellets_heavy.svg"
+    },
+    "7102": {
+        "weather": "Grésil léger",
+        "image": "ice_pellets_light.svg"
+    },
+    "8000": {
+        "weather": "Orage",
+        "image": "tstorm.svg"
     }
 }
